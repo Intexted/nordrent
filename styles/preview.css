@@ -1,0 +1,112 @@
+.om-theme-preview {
+  position: fixed;
+  left: -181px;
+  top: 204px;
+
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 767px) {
+  .om-theme-preview {
+    display: none;
+  }
+}
+
+.om-theme-preview.active {
+  -webkit-transform: translateX(181px);
+  transform: translateX(181px);
+
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.4);
+}
+
+.om-theme-preview-inner {
+  width: 153px;
+  height: 197px;
+  padding: 22px 0 22px 28px;
+  position: relative;
+  background: #fff;
+  background: -moz-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+  background: linear-gradient(to right, #f2f2f2 0%, #ffffff 100%);
+  border-radius: 0 2px 2px 0;
+}
+
+.om-theme-preview-control {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  position: absolute;
+  left: 100%;
+  top: 16px;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  color: #c9c9c9;
+}
+
+.om-theme-preview-control:hover:before,
+.om-theme-preview.active .om-theme-preview-control:before {
+  opacity: 1;
+}
+
+.om-theme-preview-control:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(/images/gear.png) no-repeat center center;
+  background-size: 24px 24px;
+  opacity: 0.4;
+
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.om-theme-preview-title {
+  font-size: 18px;
+  font-family: "Montserrat";
+  margin-bottom: 22px;
+}
+
+.om-theme-preview a {
+  display: block;
+  width: 50px;
+  height: 35px;
+  float: left;
+  border: 2px solid #fff;
+  margin: 0 15px 10px 0;
+
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.om-theme-preview a.active {
+  box-shadow: 0 0 2px 0 #ee6a00;
+}
+
+.om-theme-preview a.item-1 {
+  background: url(/images/preview-1.png);
+}
+.om-theme-preview a.item-2 {
+  background: url(/images/preview-2.png);
+}
+.om-theme-preview a.item-3 {
+  background: url(/images/preview-3.png);
+}
+.om-theme-preview a.item-4 {
+  background: url(/images/preview-4.png);
+}
+.om-theme-preview a.item-5 {
+  background: url(/images/preview-5.png);
+}
+.om-theme-preview a.item-6 {
+  background: url(/images/preview-6.png);
+}

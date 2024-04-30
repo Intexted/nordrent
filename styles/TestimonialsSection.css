@@ -1,0 +1,73 @@
+/* Container styles */
+.testimonials-section {
+  text-align: center;
+  padding: 0 70px;
+}
+
+/* Heading styles */
+.heading {
+  font-weight: 600;
+  font-size: 1.875rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+/* Reviews container styles */
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+/* Review card styles */
+.review-card {
+  flex: 1;
+  border: 1px solid #e5e5e5;
+  padding: 5px 15px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Review header styles */
+.review-header {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+/* Avatar styles */
+.avatar {
+  background-color: rgb(3, 65, 146);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+  margin-top: 5px;
+}
+
+/* Reviewer name styles */
+.reviewer-name {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+/* Review text styles */
+.review-text {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+.review-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}

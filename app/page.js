@@ -1,95 +1,83 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import { FaPhoneAlt } from "react-icons/fa";
+import dynamic from "next/dynamic";
+const CarsSlider = dynamic(() => import("@/components/CarsSlider"));
+const ReservationForm = dynamic(() => import("@/components/ReservationForm"));
+const Footer = dynamic(() => import("@/components/Footer"));
+const Service = dynamic(() => import("@/components/Services"));
+const Counters = dynamic(() => import("@/components/Counters"));
+const MainContent = dynamic(() => import("@/components/MainContent"));
+const CitySlider = dynamic(() => import("@/components/CitySlider"));
+const BrandsSlider = dynamic(() => import("@/components/BrandsSlider"));
+import actions from "@/actions";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
-export default function Home() {
+export default async function Home() {
+  const cars = await actions.getCars();
+  const brands = await actions.getBrands();
+  const config = await actions.getSiteConfig();
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <div className="bg-home">
+        <div className="home-flex">
+          <CarsSlider cars={cars} brands={brands} />
+          <ReservationForm />
         </div>
       </div>
-
-      <div className={styles.center}>
+      <div className="loading-next">
+        <Counters />
+        <Service />
+        <BrandsSlider brands={brands} />
+        <CitySlider sliders={config.sliders} />
+        <MainContent sliders={config.sliders} />
+        <TestimonialsSection />
+        <Footer />
+      </div>
+      {/* Whatsapp Icon */}
+      <a
+        href="https://api.whatsapp.com/send?phone=+212681695340&text=Salut "
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact with Whatsapp "
+        style={{
+          position: "fixed",
+          bottom: 10,
+          height: 50,
+          width: 50,
+          left: 10,
+          zIndex: 999,
+          borderRadius: "50%",
+          boxShadow: "rgba(0, 0, 0, 0.133) 0px 10px 40px",
+        }}
+      >
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/whatsapp.svg"
+          alt="whatsapp logo"
+          height={50}
+          width={50}
+          className="cursor-pointer"
+          loading="lazy"
         />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      </a>
+      {/* Phone Icon */}
+      <a
+        href="tel:+212681695340"
+        aria-label="Contact with Phone Number "
+        style={{
+          position: "fixed",
+          bottom: 70,
+          height: 50,
+          width: 50,
+          left: 10,
+          zIndex: 999,
+          borderRadius: "50%",
+          boxShadow: "rgba(0, 0, 0, 0.133) 0px 10px 40px",
+        }}
+      >
+        <span className="cursor-pointer phone">
+          <FaPhoneAlt />
+        </span>
+      </a>
     </main>
   );
 }
