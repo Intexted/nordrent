@@ -28,7 +28,6 @@ function CarsSlider({ cars, brands }) {
       <div className="cars-slider__inner" id="myslider">
         <Swiper
           modules={[Navigation, Autoplay, EffectFade]}
-          cssMode={true}
           spaceBetween={50}
           slidesPerView={1}
           effect={"fade"}
