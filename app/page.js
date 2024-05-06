@@ -18,7 +18,7 @@ export default async function Home() {
   const config = await actions.getSiteConfig();
   return (
     <main>
-      <div className="bg-home">
+      <div className="home-bg">
         <div className="home-flex">
           <CarsSlider cars={cars} brands={brands} />
           <ReservationForm />
