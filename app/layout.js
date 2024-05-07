@@ -20,7 +20,7 @@ export const metadata = {
   alternates: {
     canonical: "/",
   },
-  title: "location de voiture Tanger | Appelez-nous au 0681 69 53 40",
+  title: "location de voiture à Tanger | Appelez-nous au 0681 69 53 40",
   description:
     "Nord Promo Car propose des services de location de voiture à Tanger pour répondre à tous vos besoins de déplacement. Profitez d'une sélection variée de véhicules, allant des voitures compactes aux SUV spacieux. Nous offrons des tarifs compétitifs et un service client de qualité. Réservez votre location de voiture à Tanger dès aujourd'hui avec Nord Promo Car pour une expérience fluide et agréable.",
   keywords: [

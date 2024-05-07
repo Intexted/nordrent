@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Navigation, Autoplay, EffectFade } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,17 +14,6 @@ function CarsSlider({ cars, brands }) {
 
   return (
     <div className="cars-slider" id="cars-slider">
-      <div className="car-slider__title-wrapper om-container">
-        <div className="om-container__inner">
-          {/* <h2 className='cars-slider__title'>Modèles de véhicules</h2>
-          <div className='h-subtitle cars-slider__subtitle'>
-            Réservez maintenant et obtenez la meilleure offre
-          </div> */}
-
-          {/* <h2>Réservez maintenant !</h2> */}
-        </div>
-      </div>
-
       <div className="cars-slider__inner" id="myslider">
         <Swiper
           modules={[Navigation, Autoplay, EffectFade]}
@@ -34,7 +23,7 @@ function CarsSlider({ cars, brands }) {
           onSlideChange={(i) => {
             if (Max <= i?.activeIndex + 2) setMax(i?.activeIndex + 2);
           }}
-          autoplay={{ delay: 5000 }}
+          autoplay={{ delay: 10000 }}
           navigation={{
             nextEl: ".next-2",
             prevEl: ".prev-2",

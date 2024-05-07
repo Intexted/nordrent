@@ -23,7 +23,7 @@ function Splash() {
               width={200}
               height={200}
               src="/images/car_anim.svg"
-              alt=""
+              alt="loading logo"
               className="logo"
             />
             <div className="car">
@@ -31,7 +31,7 @@ function Splash() {
                 width={100}
                 height={100}
                 src="/images/car_wheel.svg"
-                alt=""
+                alt="loading logo"
                 className="wheel"
               />
               <div className="bgs"></div>

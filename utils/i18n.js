@@ -5,7 +5,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 const resources = {
   en: {
     translation: {
-      title: "Book your car rental in Tangier now !",
+      title: "Book Your Car Rental in Tangier Now for the Best Price!",
       location: "Locations",
       contact: "Contacts",
       pickUpAgency: "Pick-up Agency",
@@ -97,7 +97,8 @@ const resources = {
   },
   fr: {
     translation: {
-      title: "Réservez votre location de voiture à Tanger dès maintenant !",
+      title:
+        "Location de Voiture à Tanger: Réservez Maintenant au Meilleur Prix !",
       location: "Locations",
       contact: "Contacts",
       home: "Accueil",
@@ -191,7 +192,7 @@ const resources = {
   },
   es: {
     translation: {
-      title: "Reserva tu alquiler de coches en Tánger ahora !",
+      title: "Reserva tu alquiler de coche en Tánger ahora al mejor precio!",
       location: "Ubicaciones",
       contact: "Contactos",
       home: "Inicio",

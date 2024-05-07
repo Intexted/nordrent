@@ -61,11 +61,11 @@ function CarsSliderCard2({ car, brands }) {
           <div className="product-base">
             <Image
               src={car?.image1}
-              width={480}
+              width={450}
               height={450}
               className="product-image"
-              loading="eager"
               alt="car"
+              loading="eager"
               priority
             />
           </div>
@@ -114,7 +114,7 @@ function CarsSliderCard2({ car, brands }) {
             <div className="price-block notavailable">
               <Image
                 src="/images/notavailable.svg"
-                alt=""
+                alt="not available logo"
                 height={220}
                 width={220}
               />
