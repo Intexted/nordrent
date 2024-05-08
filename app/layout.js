@@ -12,6 +12,7 @@ import "@/styles/style-custom.css";
 
 import Navbar from "@/components/NavBar";
 import Splash from "@/components/splash";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Analytics />
         <Splash />
         <Toaster position="top-right" />
         <Navbar />
