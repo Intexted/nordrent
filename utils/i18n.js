@@ -50,7 +50,7 @@ const resources = {
         "Tangier, a city located in northern Morocco, is known for its laid-back lifestyle and vibrant cultural scene. Whether you're looking to explore local markets or enjoy a night out on the town, Tangier has something for everyone. Plus, with its convenient location just off the European coast, it's easy to explore all the Mediterranean destinations.",
       AboutCarRentalAgencyTitle: "About our car rental agency in Tangier",
       AboutCarRentalAgencyDescription:
-        "Nord Promo Car is your trusted partner for car rental in Tangier, Morocco. We are committed to offering reliable and high-quality car rental services to ensure your satisfaction. Our diverse fleet accommodates all needs and budgets, from compact cars to luxury models. Our experienced team assists you in selecting the perfect vehicle for your stay in Tangier. Benefit from our competitive rates and flexible options, whether for short-term or long-term rentals. Contact us today for a hassle-free car rental in Tangier experience with Nord Promo Car.",
+        "Car Rental in Tangier: Nord Promo Car Your trusted partner for all your car rental needs in this Moroccan city. We provide reliable and high-quality rental services to ensure your satisfaction. Our diverse fleet offers compact, family, and luxury cars tailored to all needs and budgets. Our experienced team will help you choose the ideal vehicle for your stay in Tangier. Take advantage of our competitive rates and flexible options, whether for short or long-term rentals. Contact us today for a hassle-free car rental experience in Tangier.",
       CustomerReviewsTitle: "What are customers saying about us?",
       ContactQuestion:
         "Do you have any questions or need additional information? Get in touch with us!",
@@ -145,7 +145,7 @@ const resources = {
       AboutCarRentalAgencyTitle:
         "À propos de notre agence de location de voiture à Tanger",
       AboutCarRentalAgencyDescription:
-        "Nord Promo Car est votre partenaire de confiance pour la location de voiture à Tanger, Maroc. Nous nous engageons à offrir des services de location de voitures fiables et de qualité pour garantir votre satisfaction. Notre flotte diversifiée s'adapte à tous les besoins et budgets, allant des voitures compactes aux modèles de luxe. Notre équipe expérimentée vous aide à choisir le véhicule parfait pour votre séjour à Tanger. Profitez de nos tarifs compétitifs et options flexibles, que ce soit pour des locations à court ou long terme. Contactez-nous aujourd'hui pour une expérience de location de voiture à Tanger sans tracas avec Nord Promo Car.",
+        "Location de voitures à Tanger : Nord Promo Car Votre partenaire de confiance pour tous vos besoins de location de voitures dans cette ville marocaine. Nous offrons des services de location fiables et de qualité pour garantir votre satisfaction. Notre flotte diversifiée propose des voitures compactes, familiales et de luxe, adaptées à tous les besoins et budgets. Notre équipe expérimentée vous aidera à choisir le véhicule idéal pour votre séjour à Tanger. Profitez de nos tarifs compétitifs et de nos options flexibles, que ce soit pour des locations à court ou long terme. Contactez-nous dès aujourd'hui pour une expérience de location de voiture sans tracas à Tanger.",
       CustomerReviewsTitle: "Que disent les clients à notre sujet ?",
       ContactQuestion:
         "Avez-vous des questions ou avez-vous besoin d'informations supplémentaires ? Contactez-nous !",
@@ -239,7 +239,7 @@ const resources = {
       AboutCarRentalAgencyTitle:
         "Acerca de nuestra agencia de alquiler de coches en Tánger",
       AboutCarRentalAgencyDescription:
-        "Nord Promo Car es tu socio de confianza para el alquiler de coches en Tánger, Marruecos. Estamos comprometidos con ofrecer servicios de alquiler de coches fiables y de alta calidad para garantizar tu satisfacción. Nuestra diversa flota se adapta a todas las necesidades y presupuestos, desde coches compactos hasta modelos de lujo. Nuestro equipo experimentado te ayuda a seleccionar el vehículo perfecto para tu estancia en Tánger. Disfruta de nuestras tarifas competitivas y opciones flexibles, ya sea para alquileres a corto o largo plazo. Contáctanos hoy para una experiencia de alquiler de coches en Tánger sin complicaciones con Nord Promo Car.",
+        "Alquiler de coches en Tánger: Nord Promo Car Su socio de confianza para todas sus necesidades de alquiler de coches en esta ciudad marroquí. Ofrecemos servicios de alquiler fiables y de calidad para garantizar su satisfacción. Nuestra flota diversa incluye coches compactos, familiares y de lujo, adaptados a todas las necesidades y presupuestos. Nuestro equipo experimentado le ayudará a elegir el vehículo ideal para su estancia en Tánger. Aproveche nuestras tarifas competitivas y opciones flexibles, ya sea para alquileres a corto o largo plazo. Contáctenos hoy mismo para una experiencia de alquiler de coches sin complicaciones en Tánger.",
       CustomerReviewsTitle: "¿Qué dicen los clientes sobre nosotros?",
       ContactQuestion:
         "¿Tiene alguna pregunta o necesita información adicional? ¡Contáctanos!",
