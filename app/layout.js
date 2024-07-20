@@ -17,7 +17,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://www.rentnord.com/"),
+  metadataBase: new URL("https://www.tangerdrive.com/"),
   alternates: {
     canonical: "/",
   },
@@ -41,7 +41,7 @@ export const metadata = {
     title: "location de voiture Tanger | Appelez-nous au 0681 69 53 40",
     description:
       "Nord Promo Car propose des services de location de voiture à Tanger pour répondre à tous vos besoins de déplacement. Profitez d'une sélection variée de véhicules, allant des voitures compactes aux SUV spacieux. Nous offrons des tarifs compétitifs et un service client de qualité. Réservez votre location de voiture à Tanger dès aujourd'hui avec Nord Promo Car pour une expérience fluide et agréable.",
-    url: "https://www.rentnord.com/",
+    url: "https://www.tangerdrive.com/",
     images: "/opengraph-image.png",
     type: "website",
   },
